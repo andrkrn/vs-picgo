@@ -1,4 +1,10 @@
-import { IConfig, PicGo, IHelper, LifecyclePlugins, IPluginConfig } from 'picgo'
+import {
+  IConfig,
+  PicGo,
+  IHelper,
+  LifecyclePlugins,
+  IPluginConfig
+} from '@andrkrn/picgo'
 import { DataStore } from './DataStore'
 import vscode from 'vscode'
 import { decorateMessage, showError, showInfo } from './utils'

@@ -63,6 +63,9 @@ export interface IVSPicgoConfiguration {
   'picgo.picBed.weibo.username': string | undefined
   'picgo.picBed.weibo.quality': string | undefined
   'picgo.picBed.weibo.cookie': string | undefined
+
+  // weibo picBed
+  'picgo.picBed.internal.url': string | undefined
 }
 
 export type IVSPicgoConfigurationKeys = keyof IVSPicgoConfiguration
@@ -83,7 +86,8 @@ export const DEFAULT_CONFIGS: IVSPicgoConfiguration = {
   'picgo.dataPath': '',
   'picgo.customUploadName': '${fileName}${extName}',
   'picgo.customOutputFormat': '![${uploadedName}](${url})',
-  'picgo.picBed.current': 'smms',
+  'picgo.picBed.current': 'internal',
+  'picgo.picBed.internal.url': 'https://vscode.andrkrn.workers.dev',
   // 'picgo.picBed.current': 'github',
 
   // aliyun picBed

@@ -58,5 +58,6 @@
   ],
   "[markdown]": {
     "editor.tabSize": 4
-  }
+  },
+  "picBed.current": "internal",
 }

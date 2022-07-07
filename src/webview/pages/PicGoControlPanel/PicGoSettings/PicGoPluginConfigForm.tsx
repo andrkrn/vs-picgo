@@ -1,4 +1,4 @@
-import { IPluginConfig } from 'picgo'
+import { IPluginConfig } from '@andrkrn/picgo'
 import React from 'react'
 import {
   Grid,
